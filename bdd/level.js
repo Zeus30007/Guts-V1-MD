@@ -104,7 +104,27 @@ async function getBottom10Users() {
   }
 }
 
+async function handleGroupMessage(message) {
+  const client = await pool.connect();
+  
+  // Check if the message contains the "add exp" command
+  if (message.includes("add") && message.includes("to")) {
+    // Extract the tagged user ID and the amount of exp to add from the message
+    const regex = /add (\d+) to @(\w+)/; // Regex pattern to match "add <number> to @username"
+    const match = message.match(regex);
+    if (match) {
+      const expToAdd = parseInt(match[1]); // Extract the amount of exp to add
+      const taggedUserId = match[2]; // Extract the tagged user ID
+      addExpToTaggedUser(taggedUserId, expToAdd);
+      console.log(`Added ${expToAdd} exp to user ${taggedUserId}`);
+    }
+  }
+}
 
+// Example usage:
+const groupMessage = "Hey everyone! add 10 to @TaggedUser456"; // Example group message
+handleGroupMessage(groupMessage); // Call the function to handle the message
+      
 
 // Exécutez la fonction de création de la table lors de l'initialisation
 createUsersRankTable();
