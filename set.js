@@ -14,11 +14,6 @@ module.exports = { session: process.env.SESSION_ID || 'zokk',
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "oui",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
     BOT : process.env.BOT_NAME || '𝙎𝙝𝙞𝙣𝙞𝙘𝙝𝙞𝙧𝙤',
-}
-
-// Sticker WM
-global.packname = 'GURU┃ᴮᴼᵀ' 
-global.author = '@Asliguru' 
     OPENAI_API_KEY : process.env.OPENAI_API_KEY || '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',
     URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/ff3e80a9a69f2b61556a4.jpg',
     MODE: process.env.PUBLIC_MODE || "yes",
