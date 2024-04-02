@@ -3,7 +3,7 @@
   "description":"An easy and simple WhatsApp bot developed by France King",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/57c3083b60b2bea6ec132.jpg",
-  "repository":"https://github.com/Zeus30007/Guts-V1-MD/",
+  "repository":"https://github.com/Purnageethanajana/DEXTER-V1-MD/",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -16,12 +16,12 @@
     "AUTO_READ_STATUS":
     {
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"no",
+      "value":"yes",
       "required":false
     }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
+      "value":"yes",
       "required":false
     }
     ,
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"shinishiro",
+      "value":"DEXTER-V1-MD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"📌 Dont change ",
-      "value":"https://telegra.ph/file/6f6ce50034a0dc7762f42.mp4",
+      "value":"https://telegra.ph/file/e716c8220c20e3845f2cf.mp4",
       "required":false
        
      },
@@ -65,7 +65,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID , make sure it starts with eyJub2I...",   
-      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR0kxZU9hR3FaRDR4V0lvMExnSG5uYUpxU1d5VUVXL1B1VEZwQ2pvMnJXRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUm95bXRmbnU0L1NWVkFTaE11TkVzeGxycUNaK1czakJlOVg0emltZ2RWUT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJXTldQeEpZdTJqUXZUTmV4bUZYYVJYZk5kL2xPM0Z0QXZBQ0lKaXJReW1RPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJodW9WT0xWQ0VoNHBqOFpMVW14eS9paXE2TkNudHBwVXloV2MwRGZSMlRRPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImdMWHM4ZjhpbGtibTRLVEROSWZKckVla1FweXJISVl6bWpaOWt2TDhYbk09In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InhEMzNBMUtiMkp2SWxVNExUY04vZC81TzhrdXBRTjdZVzFXOHBIN3NXU0U9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0ptRHFsS2dqaEZCREFtSG9DNXRhdzBPM0lvTTh5eDdDcHJoQ1FEWmFITT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaDdXbEZjOFNuNzMranVtdVBNQ0NCSVRxWjB6M2pvWVF0Y21pdW1ET2xGaz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ilo3anJmUWgvVm9mUWVLUjlCNWltYlAvTzA5TzBhdnc2ZlMvK2RLNmM5c2RvOCsrQm05Y1l0cXNQeVVuOHF4Y2hBOFdlSTZzY01GdlFVWkk2Z2hET2lRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NDEsImFkdlNlY3JldEtleSI6Imc5ODhvV2tXM0M5UGlGeHNkYmQ2RVdnTllxVXd5SWJaelZZTHhzWlk0YzA9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiMjYwNzY3NjExNzEwQHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6Ijg5RTQyOEE5OTRBRjMwQUY2MENERTZCNjMxNjJBRjc2In0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3MTE4Mzc2NjV9LHsia2V5Ijp7InJlbW90ZUppZCI6IjI2MDc2NzYxMTcxMEBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiI4ODEzRTRCM0Y3RUUzQTQwNUMyRTM0Mzk3NEMzM0UxNiJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzExODM3NjY1fSx7ImtleSI6eyJyZW1vdGVKaWQiOiIyNjA3Njc2MTE3MTBAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiNEYwRDc0M0E3MDJEQzc1OUU1RDUxMTRCMEE0NkM4QkIifSwibWVzc2FnZVRpbWVzdGFtcCI6MTcxMTgzNzY2OH0seyJrZXkiOnsicmVtb3RlSmlkIjoiMjYwNzY3NjExNzEwQHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6Ijc5ODVBODBCQzE5ODhERkI5QTdDRkVBQTE5REZDMTU5In0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3MTE4Mzc2Njh9XSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjEsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IlV2MFlHc2FEUjdpM2lkVzBCdWxxNkEiLCJwaG9uZUlkIjoiYWY3MTExZTctNjYyZC00YmEzLWI5NzEtYWU5Zjc3ZWU4NmEzIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImRVdkdhd1dGVUkya2p2SGlvdlJ0UnRCUGlIdz0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJzSlA2MHhjTy9sVE16MUk2SnlZTDA2NmY4dTg9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiMzNNR1dZTEMiLCJtZSI6eyJpZCI6IjI2MDc2NzYxMTcxMDoxQHMud2hhdHNhcHAubmV0IiwibmFtZSI6IvCdmY3wnZmA8J2ZhPCdmL/hmqoifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0xIeTRZZ0JFTk9qb3JBR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IncwUktrTGREWmFRR25iSnVBODF4a05BVC9wazEydFJ5KzBvVmdwWjlMSFE9IiwiYWNjb3VudFNpZ25hdHVyZSI6InJ6bjNrWW4yV0pEa04yb3R2SUlHV2s3bC9qYzl4MFpwVEpYVXVBVStDeU1HU3JwMGlDdXJ6MWdaSm90SS9FbW1IMVo4VFlWS01NR2RZZFNENHdrekRnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJucVJ6K0pPdVdxbkl5dDBtVkZQS21kMWY4cmZoVVZLb3E3K1pzVitwb0dvTnhjdzVDZGJsdmlDeTdtRit1OUdLdFRqTEVZd1plNDN6Q0JySHNKZWtndz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI2MDc2NzYxMTcxMDoxQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmNORVNwQzNRMldrQnAyeWJnUE5jWkRRRS82Wk5kclVjdnRLRllLV2ZTeDAifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MTE4Mzc2NjQsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBQVQ5In0=",
+      "value":"",
       "required": true
 
     },
@@ -74,14 +74,14 @@
     
     "desc": "📌 Dont chchange (වෙනස් කරන්න එපා)",
     "required": false,
-    "value": "MIKEY"
+    "value": "DEXTER"
   },
     "OWNER_NUMBER":
   {
     
     "desc": "📌 Dont chchange (වෙනස් කරන්න එපා)",
     "required":false,
-    "value": "61485971304"
+    "value": "94789958225"
   },
     "WARN_COUNT":
   {
@@ -97,7 +97,7 @@
   },
   "PRESENCE":{
     "description":"📌 ALWAYS ONLINE 1 /📌 TYPING 2 /📌 RECORDING AUDIO.... 3🌟 ඔයාට ඔන අංකය type කරන්න 🌟",
-    "value":"ALWAYS ONLINE 1",
+    "value":"",
     "required": false
   }  
   },
