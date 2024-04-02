@@ -17,6 +17,7 @@ const os = require('os')
 const speed = require('performance-now')
 Function({
 	pattern: 'menu',
+	pattern: 'shinichiro',
 	fromMe: isPublic,
 	type: 'info'
 }, async (message, match, client) => {
