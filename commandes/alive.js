@@ -6,6 +6,7 @@ const s = require(__dirname + "/../set");
 zokou(
     {
         nomCom : 'alive',
+        nomCom : 'Bro Shinichiro',
         categorie : 'General'
         
     },async (dest,zk,commandeOptions) => {
@@ -43,7 +44,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *FLASH-MD by France King is alive*`
+ *I'm here *`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -73,12 +74,12 @@ else {
     } else {
         if(!superUser) { repondre("there is no alive for this bot") ; return};
 
-      await   repondre("⚔ 𝐃𝐄𝐗𝐓𝐄𝐑 𝐌𝐃 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓 𝗢𝗪𝗡𝗘𝗥 𝗗𝗘𝗫𝗧𝗘𝗥 ⚔");
-         repondre(" *Support ravi and chaky ! cyber dexter")
+      await   repondre("𝙎𝙝𝙞𝙣𝙞𝙘𝙝𝙞𝙧𝙤");
+         repondre(" *Support ;Mirai.art69 on Instagram is")
      }
  } else {
 
-    if(!superUser) { repondre ("Only the owner can  modify the alive") ; return};
+    if(!superUser) { repondre ("Only 𝙈𝙄𝙆𝙀𝙔 can  modify the alive") ; return};
 
   
     const texte = arg.join(' ').split(';')[0];

@@ -31,7 +31,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧𝐃𝐄𝐗𝐓𝐄𝐑-𝐌𝐃✧────◆
+╭────✧𝙎𝙝𝙞𝙣𝙞𝙘𝙝𝙞𝙧𝙤✧────◆
 │♨ *Préfix* : ${s.PREFIXE}
 │♨ *User* : ${s.OWNER_NAME}
 │♨ *Mode* : ${mode}
@@ -40,21 +40,21 @@ const date = moment().format('DD/MM/YYYY');
 │♨ *Time* : ${temps} 
 │♨ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │♨ *Platform* : ${os.platform()}
-│♨ *Developer* : 𝐃𝐄𝐗𝐓𝐄𝐑
+│♨ *Developer* : 𝙈𝙄𝙆𝙀𝙔
 │♨ *Version* : 𝐯7.5.25
-╰─────✧The-GOAT✧─────◆ \n\n`;
+╰─────✧𝙈𝙄𝙆𝙀𝙔✧─────◆ \n\n`;
 
   let menuMsg=`  
 
-*DEXTER-MD COMMANDS :*
+*𝙎𝙝𝙞𝙣𝙞𝙘𝙝𝙞𝙧𝙤 COMMANDS :*
 ◇                             ◇
 `;
 
     for (const cat in coms) {
-        menuMsg += `*╭────☢️* *${cat}* *☢️⊷*`;
+        menuMsg += `*╭────㊗* *${cat}* *㊗⊷*`;
         for (const cmd of coms[cat]) {
             menuMsg += `
- *|♦️* ${cmd}`;
+ *|㊗* ${cmd}`;
         }
         menuMsg += `
 *╰═════════════⊷* \n`
@@ -64,15 +64,15 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *————— ★ —————*
 
-  *📌DEXTER©🐐²0²⁴*                                         
+  *📌𝙈𝙄𝙆𝙀𝙔*                                         
 *╰═════════════⊷*
-`;
+`
 
    var lien = mybotpic();
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Zokou-MD*, développé par Djalega++" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Shinishiro*, développé par Djalega++" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -82,7 +82,7 @@ const date = moment().format('DD/MM/YYYY');
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*📌Dexter*" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*📌𝙈𝙄𝙆𝙀𝙔*" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
